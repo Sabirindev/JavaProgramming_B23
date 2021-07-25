@@ -22,8 +22,11 @@ public class ArrayListIntro {
         System.out.println(numbers);
         System.out.println("size was "+numbers.size());
 
-        numbers.add(0,70);
-        System.out.println(numbers);
+         //index                             0  1  2  3
+        numbers.add(0,70); // [10,20,30,40]
+             // index                     0   1  2  3  4
+        System.out.println(numbers);  // [70,10,20,30,40]
+
         System.out.println(numbers.get(2)); //20
 
         System.out.println("Size is "+numbers.size());
