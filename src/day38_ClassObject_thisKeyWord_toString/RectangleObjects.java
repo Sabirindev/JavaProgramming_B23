@@ -16,7 +16,10 @@ public class RectangleObjects {
 
         rectangle2.getInfo();
 
+        System.out.println("*************** toString() method *****************************");
 
+        System.out.println(rectangle1);
+        System.out.println(rectangle2);
 
 
     }
