@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 public class DogPark {
     public static void main(String[] args) {
+        System.out.println("************************ dog1 *****************************");
         CC_Dog dog1 = new CC_Dog();
         dog1.name = "Kangal";
         dog1.gender ="Female";
@@ -21,10 +22,14 @@ public class DogPark {
         System.out.println(dog1.age);
         System.out.println(dog1.color);
 
+        System.out.println("************************ dog2 *****************************");
         CC_Dog dog2 = new CC_Dog();
         dog2.setInfo("Caucasian Shepherd dog",5,"Male",
                 "Shepherd dog","Large","Black and White");
 
+        dog2.getInfo();
+
+        System.out.println("************************ dog3 *****************************");
         CC_Dog dog3 = new CC_Dog();
         dog3.setInfo("ninja",5,"Male","Blue","Medium", "Gray");
 
@@ -32,7 +37,9 @@ public class DogPark {
         dog2.bark();
         dog3.bark();
 
-        System.out.println("************************************************************");
+        dog3.getInfo();
+
+        System.out.println("*********************** mixed *******************************");
         dog2.eat("Meat");
         dog1.eat("Pizza");
         dog1.drink("Milk");
@@ -40,10 +47,10 @@ public class DogPark {
         dog1.play();
         dog2.play();
 
-        System.out.println("***************************************************************");
+        System.out.println("********************** dog2 ******************************");
         dog2.getInfo();
 
-        System.out.println("\n**********************************************************");
+        System.out.println("\n*********************** dog1 *********************************");
         dog1.getInfo();
 
         System.out.println("\n****************************************************************");
@@ -51,9 +58,8 @@ public class DogPark {
         CC_Dog[] dogsArr = {dog1,dog2,dog3};
 
         ArrayList<CC_Dog> dogsList = new ArrayList<>();
-        dogsList.addAll(Arrays.asList(dogsArr));
+        dogsList.addAll(Arrays.asList(dog1,dog2,dog3));
 
-        System.out.println(dogsList);
 
 
 

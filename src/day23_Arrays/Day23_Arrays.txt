@@ -1,7 +1,7 @@
 06/28/2021
 Topics: Nested Loop
-		ArraysClass Intro
-		ArraysClass Utility: toString, sort, equals
+		arraysClass Intro
+		arraysClass Utility: toString, sort, equals
 
 Package Name: day23_Arrays
 
@@ -74,7 +74,7 @@ variables:
 
 
 
-ArraysClass variables: a variable that can have multiple data
+arraysClass variables: a variable that can have multiple data
 
 			ordered data structure (has index numbers)
 
@@ -96,10 +96,10 @@ declaring an array variuable
 
 
 
-ArraysClass Utility: ArraysClass class is a utility of the array
-				ArraysClass class is presented  in "java.util"
+arraysClass Utility: arraysClass class is a utility of the array
+				arraysClass class is presented  in "java.util"
 
-				import java.util.ArraysClass;
+				import java.util.arraysClass;
 
 
 

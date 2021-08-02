@@ -22,7 +22,7 @@ Warmup task:
 
 
 3 data structures:
-	ArraysClass
+	arraysClass
 	Collections
 	Maps
 

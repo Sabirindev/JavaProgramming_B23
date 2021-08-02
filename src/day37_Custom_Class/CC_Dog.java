@@ -1,8 +1,5 @@
 package day37_Custom_Class;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import day15_String_Method.StringIntro;
-
 public class CC_Dog { //custom class Dog
 
     //***Atributes of Dog class*****

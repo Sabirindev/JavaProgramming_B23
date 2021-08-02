@@ -1,6 +1,6 @@
 07/02/2021
 Topics: Multi-Dimensional array: 2D, 3D, 4D... nD
-		Java Recap (Loops & ArraysClass)
+		Java Recap (Loops & arraysClass)
 
 Package Name: day26_MultiDimensionalArray
 
@@ -20,7 +20,7 @@ single dimensional arrays: contains elements
 
 	[index of Elements]
 
-	ArraysClass.toString : used for printing single dimensional array ONLY
+	arraysClass.toString : used for printing single dimensional array ONLY
 
 multi-dimensinal arrays: contains arrays
 
@@ -61,7 +61,7 @@ multi-dimensinal arrays: contains arrays
 
 
 
- ArraysClass.deepToString: used for printing  Multi dimensional array ONLY
+ arraysClass.deepToString: used for printing  Multi dimensional array ONLY
 
 
 
