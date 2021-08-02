@@ -23,6 +23,16 @@ public class Rectangle {
         System.out.println("Area = " + calculateArea());
         System.out.println("Perimeter = " + calculatePerimeter());
     }
+
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                ", area = "+calculateArea() +
+                ",perimeter = "+calculatePerimeter()+
+                '}';
+    }
+
 }
 /*
 create a custom class named Rectangle
