@@ -40,7 +40,7 @@ public class BankAccount {
     }
 
     public void checkBalance(){
-        System.out.println(accountHolder+"'s available balance is "+balance);
+        System.out.println(accountHolder+"'s available balance is $"+balance);
     }
 }
 /*
