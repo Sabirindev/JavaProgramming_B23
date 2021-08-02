@@ -1,4 +1,4 @@
-package day38_ClassObject_thisKeyWord_toString;
+package day38_ClassObject_thisKeyWord_toString.bankAccountTask;
 
 public class BankAccount {
     public String accountHolder;

@@ -1,4 +1,6 @@
-package day38_ClassObject_thisKeyWord_toString;
+package day38_ClassObject_thisKeyWord_toString.bankAccountTask;
+
+import day38_ClassObject_thisKeyWord_toString.bankAccountTask.BankAccount;
 
 public class CitiBank {
     public static void main(String[] args) {
