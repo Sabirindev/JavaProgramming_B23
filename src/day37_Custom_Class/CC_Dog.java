@@ -45,4 +45,20 @@ public class CC_Dog { //custom class Dog
         System.out.println("age = " + age);
     }
 
+//    public String toString(){
+//        return
+//    }
+
+
+    @Override
+    public String toString() {
+        return "CC_Dog{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", age=" + age +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                ", gender='" + gender + '\'' +
+                '}';
+    }
 }

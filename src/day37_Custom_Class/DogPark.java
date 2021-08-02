@@ -60,6 +60,8 @@ public class DogPark {
         ArrayList<CC_Dog> dogsList = new ArrayList<>();
         dogsList.addAll(Arrays.asList(dog1,dog2,dog3));
 
+        System.out.println(dogsList);
+
 
 
 
