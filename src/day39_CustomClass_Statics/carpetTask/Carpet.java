@@ -1,5 +1,7 @@
 package day39_CustomClass_Statics.carpetTask;
 
+import java.text.DecimalFormat;
+
 public class Carpet {
     public double width, length, unitPrice;
     public boolean isPersian;
@@ -11,11 +13,21 @@ public class Carpet {
         this.isPersian = isPersian;
     }
 
-    public double calCalcCost(){
-        double totalPrice = (width*length)*unitPrice;
-        return (isPersian)?totalPrice+200:totalPrice;
+    public double calCalcCost() {
+        double totalPrice = (width * length) * unitPrice;
+        return (isPersian) ? totalPrice + 200 : totalPrice;
     }
 
+    public String toString() {
+        DecimalFormat df = new DecimalFormat("0.00");
+        return "Carpet{" +
+                "width=" + width +
+                ", length=" + length +
+                ", unitPrice= $" + unitPrice +
+                ", isPersian=" + isPersian +
+                ", total Price = $" + df.format(calCalcCost() )+
+                '}';
+    }
 }
 /*
 create a custom class for the Carpet class that should contain the following:
