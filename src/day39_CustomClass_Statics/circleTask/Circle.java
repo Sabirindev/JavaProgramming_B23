@@ -1,5 +1,7 @@
 package day39_CustomClass_Statics.circleTask;
 
+import java.text.DecimalFormat;
+
 public class Circle {
     public double radius, diameter;
     public static double PI = 3.14;//only one copy of static variables will be shared by all circle objects
@@ -19,11 +21,12 @@ public class Circle {
 
     @Override
     public String toString() {
+        DecimalFormat df = new DecimalFormat("0.000");
         return "Circle{" +
                 "radius=" + radius +
                 ", diameter=" + diameter +
-                ", area = " + circleArea() +
-                ", perimeter = " + circlePerimeter() +
+                ", area = " + df.format(circleArea()) +
+                ", perimeter = " + df.format(circlePerimeter()) +
                 '}';
     }
 }
