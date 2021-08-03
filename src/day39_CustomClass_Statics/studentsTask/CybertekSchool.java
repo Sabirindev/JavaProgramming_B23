@@ -54,11 +54,51 @@ public class CybertekSchool {
 
         Student[][] groups = {group1,group2,group3};
 
-        ArrayList<Student> earlyBirds = new ArrayList<>(); // grade Must be A
-        ArrayList<Student> avangers = new ArrayList<>();
+        ArrayList<Student> firstMarketGroup = new ArrayList<>(); // grade Must be A
+        ArrayList<Student> secondMarketGroup = new ArrayList<>();//grade Must be B
+        ArrayList<Student> thirdMarketGroup = new ArrayList<>();
 
-        // who is the youngest earlyBird
+
+        for (Student[] eachGroup : groups) {
+            for (Student eachStudent : eachGroup) {
+                if (eachStudent.grade == 'A'){
+                    firstMarketGroup.add(eachStudent);//adding students whose grade is 'A'
+                }else if (eachStudent.grade == 'B'){
+                    secondMarketGroup.add(eachStudent);//adding students whose grade is 'B'
+                }else {
+                    thirdMarketGroup.add(eachStudent);
+                }
+            }
+        }
+
+        System.out.println("Market group1: "+firstMarketGroup.size());
+        System.out.println("Market group2: "+secondMarketGroup.size());
+        System.out.println("Market group3: "+thirdMarketGroup.size());
+
+        // who is the youngest estudent in firstMarketGroup
+        LocalDate min = firstMarketGroup.get(0).DoB;
+        String name ="";
+        for (Student student : firstMarketGroup) {
+            if (student.DoB.isAfter(min)){
+                min = student.DoB;
+                name = student.name;
+
+            }
+        }
+        System.out.println(min);
+        System.out.println(name);
         // who is the youngest avenger
+        System.out.println("******************************************************************");
+        //display the name of the students who were born between 1985-Jan-20 to 1995-Aug-15
+
+        for (Student[] group : groups) {
+            for (Student student : group) {
+                if (student.DoB.isAfter(LocalDate.of(1985,1,20))
+                && student.DoB.isBefore(LocalDate.of(1995,8,15))){
+                    System.out.println(student.name+" : "+student.DoB);
+                }
+            }
+        }
 
 
 
