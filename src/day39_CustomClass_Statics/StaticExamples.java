@@ -62,7 +62,9 @@ public class StaticExamples {
 
         System.out.println(student1.age);
         //System.out.println(CybertekStudent.age);
+        System.out.println("****************************************************************");
 
-        CybertekStudent.printSchoolName();
+        CybertekStudent.printSchoolName(); // static method called by class name
+        student1.printSchoolName();  // static method called by obj
     }
 }
