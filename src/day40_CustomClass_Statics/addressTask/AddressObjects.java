@@ -1,11 +1,14 @@
 package day40_CustomClass_Statics.addressTask;
 
+import VIII.ArrayList.Add;
+
 import java.util.Scanner;
 
 public class AddressObjects {
     public static void main(String[] args) {
         Address address = new Address();
         Scanner scan = new Scanner(System.in);//Enter
+
 
         System.out.println("Enter your building number");
         String building = scan.next();//7925
