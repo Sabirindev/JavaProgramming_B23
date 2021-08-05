@@ -1,25 +1,25 @@
 package day39_CustomClass_Statics;
 
 class  CybertekStudent{
-    public String name, gender;
-    public int age, ID;
-    public static String schoolName = "Cybertek School";
-    public static String programmingLanguage = "Java";
+    public String name, gender; //instance variable
+    public int age, ID;//instance variable
+    public static String schoolName = "Cybertek School"; //static variable
+    public static String programmingLanguage = "Java";//static variable
 
 
-    public  void printName(){
+    public  void printName(){ //instance method
         System.out.println(name);
     }
 
-    public static void printSchoolName(){
+    public static void printSchoolName(){ //static method
         System.out.println(schoolName);
     }
 
-    public void method2(){
+    public void method2(){ //instance method
         System.out.println(schoolName);
     }
 
-    public void getInfo(){
+    public void getInfo(){ //instance method
         System.out.println(name);
         System.out.println(age);
         System.out.println(gender);
@@ -45,26 +45,26 @@ public class StaticExamples {
         CybertekStudent student3 = new CybertekStudent();
         CybertekStudent student4 = new CybertekStudent();
 
-        System.out.println(student1.schoolName);
-        System.out.println(student2.schoolName);
-        System.out.println(student3.schoolName);
-        System.out.println(student4.schoolName);
+        System.out.println(student1.schoolName); // static variable is called through class object
+        System.out.println(student2.schoolName);// static variable is called through class object
+        System.out.println(student3.schoolName);// static variable is called through class object
+        System.out.println(student4.schoolName);// static variable is called through class object
         System.out.println("------------------------------------------");
-        System.out.println(student1.programmingLanguage);
-        System.out.println(student2.programmingLanguage);
-        System.out.println(student3.programmingLanguage);
-        System.out.println(student4.programmingLanguage);
+        System.out.println(student1.programmingLanguage);// static variable is called through class OBJECT
+        System.out.println(student2.programmingLanguage);// static variable is called through class OBJECT
+        System.out.println(student3.programmingLanguage);// static variable is called through class OBJECT
+        System.out.println(student4.programmingLanguage);// static variable is called through class OBJECT
 
         System.out.println("--------------------------------------");
 
-        System.out.println(CybertekStudent.schoolName);
-        System.out.println(CybertekStudent.programmingLanguage);
+        System.out.println(CybertekStudent.schoolName);// static variable is called through class NAME
+        System.out.println(CybertekStudent.programmingLanguage);// static variable is called through class NAME
 
-        System.out.println(student1.age);
+        System.out.println(student1.age);// instance variable is called through class OBJECT
         //System.out.println(CybertekStudent.age);
         System.out.println("****************************************************************");
 
-        CybertekStudent.printSchoolName(); // static method called by class name
-        student1.printSchoolName();  // static method called by obj
+        CybertekStudent.printSchoolName(); // static method called through class NAME
+        student1.printSchoolName();  // static method called through class OBJECT
     }
 }
