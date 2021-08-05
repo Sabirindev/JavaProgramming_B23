@@ -3,22 +3,22 @@ package day39_CustomClass_Statics.carpetTask;
 import java.text.DecimalFormat;
 
 public class Carpet {
-    public double width, length, unitPrice;
-    public boolean isPersian;
+    public double width, length, unitPrice; // instance variables
+    public boolean isPersian; // instance variables
 
-    public void customerOrder(double width, double length, double unitPrice, boolean isPersian) {
+    public void customerOrder(double width, double length, double unitPrice, boolean isPersian) { //instance method
         this.width = width;
         this.length = length;
         this.unitPrice = unitPrice;
         this.isPersian = isPersian;
     }
 
-    public double calCalcCost() {
+    public double calCalcCost() {  //instance method
         double totalPrice = (width * length) * unitPrice;
         return (isPersian) ? totalPrice + 200 : totalPrice;
     }
 
-    public String toString() {
+    public String toString() {  //instance method
         DecimalFormat df = new DecimalFormat("0.00");
         return "Carpet{" +
                 "width=" + width +
