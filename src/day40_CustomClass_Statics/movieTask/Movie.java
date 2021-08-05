@@ -1,25 +1,22 @@
 package day40_CustomClass_Statics.movieTask;
 
-
-
-import java.text.DateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Movie {
+public class Movie{
+
     public String title, country, genre, director;
     public LocalDate releaseDate;
     public ArrayList<String > casts = new ArrayList<>();
 
-    public Movie(String title, String country, String genre, String director, LocalDate releaseDate, ArrayList<String> casts) {
+    public void setInfo(String title, String country, String genre, String director, LocalDate releaseDate) {
         this.title = title;
         this.country = country;
         this.genre = genre;
         this.director = director;
         this.releaseDate = releaseDate;
-        this.casts = casts;
     }
 
     public void addCast(String cast){
