@@ -49,17 +49,3 @@ public class Address {
                             McLean Va, 22012
  */
 
-/*
-
-
-      create a class called MovieObjects
-            1. create an object of the movie:
-                    title: Journey to SDET: Cybertek Batch 23
-                    country: USA
-                    Genre: Adventure, Comedy, Thriller
-                    release date: May/17/2021
-                    director: Kuzzat Altay
-                    Casts: Asiya, Mehmet, Akbar and 5 more students from your group
-
-            print the full info of the movie
- */
