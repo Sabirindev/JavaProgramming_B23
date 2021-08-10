@@ -15,10 +15,10 @@ public class Developer {
         hatesTester = true;
     }
 
-    public Developer(String name, String jobTitle, char gender, int employeeID, double salary) {
+    public Developer(String name, char gender, String jobTitle, double salary, int employeeID) {
         this.name = name;
-        this.jobTitle = jobTitle;
         this.gender = gender;
+        this.jobTitle = jobTitle;
         this.employeeID = employeeID;
         this.salary = salary;
     }

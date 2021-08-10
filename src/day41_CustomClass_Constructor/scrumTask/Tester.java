@@ -17,21 +17,22 @@ public class Tester {
         isEmployeed = true;
     }
 
-    public Tester(String name, String jobTitle, char gender, double salary, int employeeID) {
+    public Tester(String name, char gender, String jobTitle, int employeeID, double salary) {
         this.name = name;
-        this.jobTitle = jobTitle;
         this.gender = gender;
-        this.salary = salary;
+        this.jobTitle = jobTitle;
         this.employeeID = employeeID;
+        this.salary = salary;
+
     }
 
     public String toString() {
-             return "Tester{" +
+        return "Tester{" +
                 "name='" + name + '\'' +
                 ", employeeID=" + employeeID +
                 ", gender=" + gender +
                 ", jobTitle='" + jobTitle + '\'' +
-                ", salary= $" + salary +
+                ", salary=" + salary +
                 '}';
     }
 

@@ -7,7 +7,7 @@ public class ScrumTeam {
 
     public String PO;
     public String BA;
-    public String  SM;
+    public String SM;
     public ArrayList<Tester>testers;
     public ArrayList<Developer> developers;
 

@@ -2,9 +2,9 @@ package day41_CustomClass_Constructor.scrumTask;
 
 public class BankOfAmerica {
     public static void main(String[] args) {
-        Tester tester1 = new Tester("Sabir","SDET",'M',145000,13);
-        Tester tester2 = new Tester("Hande","SDET",'F',165000,17);
-        Tester tester3 = new Tester("Attila","SDET",'M',185000,25);
+        Tester tester1 = new Tester("Sabir",'M',"SDET",13,145000);
+        Tester tester2 = new Tester("Hande",'F',"SDET",17,165000);
+        Tester tester3 = new Tester("Attila",'M',"SDET",25,185000);
 
         Tester[] testers = {tester1,tester2,tester3};
 
@@ -12,10 +12,10 @@ public class BankOfAmerica {
 //        System.out.println(tester2);
 //        System.out.println(tester3);
 
-        Developer developer1 = new Developer("Vitali","Software Developer",'M',8,200000);
-        Developer developer2 = new Developer("Kseniia","Java Developer",'F',9,195000);
-        Developer developer3 = new Developer("Elif","Software Developer",'F',10,205000);
-        Developer developer4 = new Developer("Abbos","Java Developer",'M',11,250000);
+        Developer developer1 = new Developer("Vitali",'M',"Software Developer",200000,8);
+        Developer developer2 = new Developer("Kseniia",'F',"Java Developer",195000,9);
+        Developer developer3 = new Developer("Elif",'F',"Software Developer",205000,10);
+        Developer developer4 = new Developer("Abbos",'M',"Java Developer",250000,11);
 
         Developer[] developers = {developer1,developer2,developer3,developer4};
 
@@ -25,7 +25,7 @@ public class BankOfAmerica {
         scrum1.hireTester(testers);
         scrum1.hireDeveloper(developers);
 
-        scrum1.hireTester(new Tester("Edison","SDET",'M',66,175000));
+        scrum1.hireTester(new Tester("Edison",'M',"SDET",175000,66));
 
         System.out.println(scrum1);
 
