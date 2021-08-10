@@ -10,6 +10,7 @@ public class CybertekStudentObjects {
 
         student1.attendClass();
         student2.replit();
+        student2.askForBreak();
 
 
     }
