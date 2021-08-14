@@ -56,4 +56,4 @@ ArrayList methods:
 
 
 Arrays Utility:
-	Arrays.asList(array of values) ==> returns the array as Collection Type
+	Arrays.asList(array of values) ==> returns the array (support both primitive and none primitve )as Collection Type

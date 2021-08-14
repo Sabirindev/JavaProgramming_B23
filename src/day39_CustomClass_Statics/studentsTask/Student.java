@@ -10,10 +10,10 @@ public class Student {
     public int studentID;
     public char grade;
 
-    public void setInfo(String name, char gender, LocalDate doB, int studentID, char grade) {
+    public void setInfo(String name, char gender, LocalDate DoB, int studentID, char grade) {
         this.name = name;
         this.gender = gender;
-        DoB = doB;
+        this.DoB = DoB;
         this.studentID = studentID;
         this.grade = grade;
         age = LocalDate.now().getYear() - DoB.getYear();

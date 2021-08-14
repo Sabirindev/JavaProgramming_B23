@@ -33,7 +33,7 @@ public class Pizza {
 		Actions:
 			customOrder(): sets all attributes of Pizza
 			calcCost(): returns the totalCost of the pizza
-			toString():returns a String containing the pizza size, quantity of each topping, and the pizza cost as calculated by 			calcCost()
+			toString():returns a String containing the pizza size, quantity of each topping, and the pizza cost as calculated by calcCost()
 
 		Pizza cost is determined by:
                         Small: $10 + $2 per topping

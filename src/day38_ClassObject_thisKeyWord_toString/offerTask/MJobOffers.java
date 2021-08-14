@@ -27,6 +27,9 @@ public class MJobOffers {
         System.out.println("-------------------------------------------------");
         // add the CA & NV offers
         ArrayList<Offer> localOffers = new ArrayList<>( Arrays.asList(arr) );
+        System.out.println("****************** try1**************************************");
+        System.out.println(localOffers);
+        System.out.println("**************************************************************");
         localOffers.removeIf( offer ->  ! (offer.state.equals("CA") || offer.state.equals("NV")) );
         System.out.println(localOffers.size());
 

@@ -5,9 +5,11 @@ import java.util.ArrayList;
 
 public class CybertekSchool {
     public static void main(String[] args) {
+        // creating group1 array type is Student(class)
         Student[] group1 = { new Student(), new Student(), new Student(), new Student(), new Student(), new Student()
                 , new Student(), new Student(), new Student(), new Student(), new Student()
         };
+
         group1[0].setInfo( "Tamara", 'F', LocalDate.of(1988,6,17), 10, 'A');
         group1[1].setInfo("Ibrahim", 'M', LocalDate.of(1991,6,20), 11, 'A');
         group1[2].setInfo("Ismail", 'M', LocalDate.of(1993,8,16), 12, 'A');
@@ -85,12 +87,12 @@ public class CybertekSchool {
 
             }
         }
-        System.out.println(min);
-        System.out.println(name);
+        System.out.println("min DoB = " + min);
+        System.out.println("name = " + name);
         // who is the youngest avenger
         System.out.println("******************************************************************");
-        //display the name of the students who were born between 1985-Jan-20 to 1995-Aug-15
 
+        //display the name of the students who were born between 1985-Jan-20 to 1995-Aug-15
         for (Student[] group : groups) {
             for (Student student : group) {
                 if (student.DoB.isAfter(LocalDate.of(1985,1,20))

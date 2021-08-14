@@ -33,6 +33,8 @@ public class returnMaxMinNumberFromArray {
         System.out.println("maximum number = "+maxNumberFormIntArray(nums));
     }
 
+    //Custome Return Method
+
     public static int maxMethod(int a, int b) {
        /*
         int max = 0;

@@ -47,6 +47,7 @@ public class AppleInc {
 
         System.out.println("\n**************** creating ArrayList<> employees ****************");
         Employee[] arr = {employee1, employee2, employee3, employee4, employee5, employee6, employee7};
+
         ArrayList<Employee> employees = new ArrayList<>();
         employees.addAll(Arrays.asList(arr));
 
@@ -56,12 +57,14 @@ public class AppleInc {
             //System.out.println(each.name + " : "+each.salary);
             System.out.println(each);
             budget += each.salary;
+            System.out.println(each.salary);
         }
 
         System.out.println("Total salary of all employess = "+ budget);
 
         System.out.println("****************** ArrayLiost<> list1 ********************");
         ArrayList<Employee> list1 =new ArrayList<>(employees);
+        //System.out.println(list1);
         //remove all the employees that are making more than 130K
         list1.removeIf(employee -> employee.salary >= 130000);
 
