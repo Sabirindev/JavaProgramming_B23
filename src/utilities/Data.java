@@ -1,6 +1,6 @@
 package utilities;
 
-import day43_AccessModifiers_Encapsulation.accessModifier.AccessModifiers;
+import day43_OOP_Encapsulation_AccessModifiers.accessModifier.AccessModifiers;
 
 public class Data {
 
