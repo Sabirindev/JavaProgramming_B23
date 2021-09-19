@@ -32,11 +32,13 @@ For each loop: a loop that's already iterated.
 				iteration stated from index 0 till the last index (fixed)
 
 
+
+
 				pre condition: there MUST be a data structure
 
 				sytax:
 
-					for(DataType Variable   : Collection of Data){
+					for(DataType Variable name   : Collection of Data){
 
 					}
 

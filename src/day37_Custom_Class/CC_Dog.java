@@ -3,7 +3,18 @@ package day37_Custom_Class;
 public class CC_Dog { //custom class Dog
 
     //***Atributes of Dog class*****
-    public String name; //
+
+
+    //public static String name2; // name2 gets value based class.. ( both class name and
+
+
+//    public static void methodStatic(){
+//        name2 = "Hande";
+//    }
+
+
+
+    public String name;
     public String breed;
     public int age;
     public String size;
@@ -27,8 +38,10 @@ public class CC_Dog { //custom class Dog
         System.out.println(name + " is playing");
     }
 
-    public void setInfo(String dogName, int dogAge, String dogGender, String dogBreed, String dogSize, String dogColor) {
-        name = dogName;
+    public void setInfo(String name, int dogAge, String dogGender, String dogBreed,
+                        String dogSize, String dogColor) {
+
+        this.name = name;
         breed = dogBreed;
         age = dogAge;
         gender = dogGender;
@@ -50,8 +63,8 @@ public class CC_Dog { //custom class Dog
 //    }
 
 
-    @Override
-    public String toString() {
+
+    public String toString() { // it is used for print info of object..
         return "CC_Dog{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +

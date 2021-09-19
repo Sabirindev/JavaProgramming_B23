@@ -45,7 +45,7 @@ Constructor: special method
 
 this: refers to the object instances
 	this. : to call instance variable & instane method
-	this(): used for calling the constructor
+	this(): used for calling the constructor at the same class
 
 
 constructor call:

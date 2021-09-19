@@ -7,10 +7,10 @@ public class SalaryCalculator {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("What's your hourly rate?");
-        double hourlyRate = scan.nextDouble();
+        double hourlyRate = scan.nextDouble(); // 10.5
 
         System.out.println("How many hours do you work in a week?");
-        int weeklyHour = scan.nextInt();
+        int weeklyHour = scan.nextInt();// return int
 
         System.out.println("How many weeks do you work in a year");
         int weeks = scan.nextInt();

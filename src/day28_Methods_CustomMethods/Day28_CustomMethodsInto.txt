@@ -27,6 +27,19 @@ Method: function. grouping a series of code fragments to create a function
 
 	}
 
+	void method1(){
+	}
+
+
+
+	public static void method2(){ //
+	}
+
+
+
+
+
+
 	declaring a method:
 		Access-midifier   specifiers   return-Type  methodName(Parameter){
 				code fragements

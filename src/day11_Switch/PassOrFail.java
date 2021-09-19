@@ -2,7 +2,8 @@ package day11_Switch;
 
 public class PassOrFail {
     public static void main(String[] args) {
-        char grade = 'A';
+
+        char grade = 'm';
         String result = "";
         /*
         Pass: A, B , C, D
@@ -19,6 +20,9 @@ public class PassOrFail {
             case 'F':
                 result = "Failed";
                 break;
+            default:
+                System.out.println("default");
         }
+        System.out.println(result);
     }
 }

@@ -10,7 +10,7 @@ public class AppleInc {
         System.out.println("\n******* employee1 ************");
         Employee employee1 = new Employee();
         employee1.setInfo("Sabir", 'F', 11, "SDET", 110000);
-        System.out.println(employee1);
+        System.out.println(employee1); // toString() implicitly
 
         employee1.salary = 120000;
         System.out.println(employee1);
@@ -83,6 +83,11 @@ public class AppleInc {
         for (Employee each : list2) {
             System.out.println(each);
         }
+
+
+        System.out.println(employee1);
+
+
 
 
     }

@@ -1,13 +1,14 @@
 package day46_OOP_Inheritance_Super_Overrideing.shapeTask;
 
 public class Circle extends Shape {
+
     private double radius, diameter;
     private final static double PI = 3.14;
 
-    public Circle(double radius, double diameter) {
+    public Circle(double radius) {
         super("Circle");
         setRadius(radius);
-        this.diameter = radius * 2;
+        setDiameter(diameter);//this.diameter = radius * 2;
     }
 
     public double getRadius() {
@@ -44,5 +45,14 @@ public class Circle extends Shape {
     @Override
     public double perimeter() {
         return diameter * PI;
+    }
+
+
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", diameter=" + diameter +
+               super.toString() +
+                '}';
     }
 }

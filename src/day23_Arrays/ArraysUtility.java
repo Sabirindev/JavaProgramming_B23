@@ -1,11 +1,44 @@
 package day23_Arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ArraysUtility {
     public static void main(String[] args) {
         // toString
         int[] array = {1,2,3,4,8,6};
+
+
+        //split(); returns "String[]array1"
+
+
+        String name = "he is going to school";
+
+        String name2[] = name.split("o");
+        String name3[] = name.split(" ");
+
+        System.out.println("name3 = " + Arrays.toString(name3));
+        System.out.println("name2.length = " + name3.length);
+
+        System.out.println("************************");
+
+        System.out.println("name2 = " + Arrays.toString(name2));
+        System.out.println("name2.length = " + name2.length);
+
+
+//        String[] name2 = name.split(" "); //parameter is space;
+//
+//        System.out.println(name2); //hashcode
+
+        //toCharArray(); returns "char[] array2
+
+        String s1 = "Cybertek school";
+
+        char[] schoolName = s1.toCharArray(); // convert s1 to char[] array
+        System.out.println("schoolName = " + Arrays.toString(schoolName));
+
+
+
 
         System.out.println(array); //[I@1b6d3586 bc we can not print array's element right away
 
@@ -25,6 +58,18 @@ public class ArraysUtility {
         // sort(): sorts the elemnts of the array in ascending order
 
         String[] students = {"Boburbek", "Aysu", "Abbos", "Sabir"};
+
+
+        System.out.println("students[3] = " + students[3]);
+
+
+
+
+
+
+
+
+
 
         System.out.println( Arrays.toString(students));
 

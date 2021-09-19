@@ -1,6 +1,7 @@
 package day41_CustomClass_Constructor.circleTask;
 
 public class Circle {
+
     public double radius;
     public double diameter;
 
@@ -10,7 +11,11 @@ public class Circle {
         PI = 3.14;
     }
 
-    public Circle(double radius) {
+//    public void Circle(){
+//        System.out.println("Custome");
+//    }
+
+    public Circle(double radius) {  //as Class name
         this.radius = radius;
         diameter = 2 * radius;
     }
@@ -20,7 +25,7 @@ public class Circle {
     }
 
     public double circlePerimeter() {
-        return diameter + PI;
+        return diameter * PI;
     }
 
     public String toString() {

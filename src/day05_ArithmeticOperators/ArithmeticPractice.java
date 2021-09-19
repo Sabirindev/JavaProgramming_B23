@@ -4,7 +4,7 @@ public class ArithmeticPractice {
     public static void main(String[] args) {
         int number = 30;
 
-        boolean isEvenlyDivisibleBy3 = number%3 ==0;
+        boolean isEvenlyDivisibleBy3 = number%3 == 0; // true
 
         System.out.println(number + " is evenly divisible by 3: "+isEvenlyDivisibleBy3);
 

@@ -8,6 +8,8 @@ class  CybertekStudent {
     public static String programmingLanguage = "Java";//static variable
 
 
+
+
     public void printName() { //instance method
         System.out.println(name);
     }

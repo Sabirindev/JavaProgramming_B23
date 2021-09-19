@@ -5,15 +5,16 @@ import java.util.Scanner;
 
 public class Calculator_with_Switch {
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in); //Scanner class
 
         System.out.print("Enter first number: ");
-        double num1 = scan.nextDouble(); // entering firts numbr
+        double num1 = scan.nextDouble(); // entering firts number
 
         System.out.print("Enter second number: ");
         double num2 = scan.nextDouble(); //entering seconf number
 
-        String result = "";
+        String result = ""; //empty value
 
         System.out.println("Select one of the given operators, please!" + "\n" + // list of operators
                 "+ - Addition" + "\n" +
@@ -21,10 +22,17 @@ public class Calculator_with_Switch {
                 "* - Multiplication" + "\n" +
                 "/ - Division" + "\n" +
                 "% - Modulus");
-        char operator = scan.next().charAt(0); //entering operator (+,-,*,/,%)
 
-        switch (operator) {
-            case '+': result = num1 + " + " + num2 + " = " + (num1 + num2);
+
+
+
+
+
+        char operator = scan.next().charAt(0);    //entering operator (+,-,*,/,%)
+
+        switch (operator) {// does NOT allow these primitives: long, float, double, Boolean
+
+           case '+': result = num1 + " + " + num2 + " = " + (num1 + num2);
                 break;
             case '-': result = num1 + " - " + num2 + " = " + (num1 - num2);
                 break;
@@ -34,7 +42,10 @@ public class Calculator_with_Switch {
                 break;
             case '%': result = num1 + " % " + num2 + " = " + (num1 % num2);
                 break;
-            default: result = "Something you entered is wrong";
+
+            default: result = "Something you entered is wrong"; //#,@ else
+
+
         }
         System.out.println(result);
     }

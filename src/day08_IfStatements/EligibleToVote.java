@@ -7,10 +7,25 @@ public class EligibleToVote {
         String citizen = "USA",
                 name = "Sabir";
 
-        boolean isEligible = age >= 21 && (citizen == "USA" || citizen =="usa");
+        boolean isEligible = age >= 21 &&  (citizen.equalsIgnoreCase("USA"));
+
+
+        String s1 = "book";
+        String s2 = "book";  // string pool memory
+
+        System.out.println(s1==s2);//true
+        System.out.println(s1.equals(s2));//true
+
+
+        String s3 = new String("book");// out of string pool
+        String s4 = new String("book");
+
+
+        System.out.println(s1==s3);//false
+        System.out.println(s1.equals(s3));//true
 
         if (isEligible) {
-
+            System.out.println("Atilla");
             System.out.println(name + " is eligible to vote");
         }
 

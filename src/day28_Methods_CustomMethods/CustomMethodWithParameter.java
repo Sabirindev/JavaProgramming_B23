@@ -16,18 +16,25 @@ public class CustomMethodWithParameter {
 
         //eligible(50);
 
-        eligible('b');
+        eligible(20);
 
     }
 
     //custome methods
-     static void eligible(int age){
+     static void eligible(int age){ // void or all data type
 
         if (age>=21){
             System.out.println("Eligible");
         }else{
             System.out.println("Not Eligible");
         }
+        //return;
+        //return; keyword is used to exit the current method.
+
+        //break keyword is used to exit the current loop
+
+
+        //return "Sabir";5 2.5 is used to retrun result in same data typed
 
     }
 }

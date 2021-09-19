@@ -1,6 +1,7 @@
 package day10_If_Nested_If_Ternary_Statements;
 
 public class DaysInWeek_Nested_If {
+
     public static void main(String[] args) {
         int numberOfDay =1;
         String day = "";
@@ -22,7 +23,10 @@ public class DaysInWeek_Nested_If {
             } else {
                 day = "Sunday";
             }
-        }else {
+        }
+
+
+        else {
             day = "There is no such a day";
         }
 

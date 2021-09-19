@@ -9,16 +9,18 @@ public class CustomMethodsIntro {
 //        printHello5Times();//3
 //        printHello5Times();//4
 
-          printHello5Times();
+     printHello5Times();
           //CustomMethodsIntro.printHello5Times();
 
        // System.out.println(printHello5Times());
 
 
+
+
     }
 
     //custom Method
-     public static void printHello5Times(){
+    public static void printHello5Times(){
         for (int i = 0; i < 5; i++) {
             System.out.println("Cybertek");
         }

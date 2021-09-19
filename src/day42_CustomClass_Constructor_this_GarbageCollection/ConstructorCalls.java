@@ -46,11 +46,11 @@ public class ConstructorCalls {
     public static void main(String[] args) {
         method2();
 
-        System.out.println("--------------------------------");
+        System.out.println("-------------*****-------------------");
 
         new ConstructorCalls();
 
-        System.out.println("---------------------------------");
+        System.out.println("--------------*****-------------------");
 
         new ConstructorCalls(10);
 

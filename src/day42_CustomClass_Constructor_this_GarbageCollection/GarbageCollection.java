@@ -26,7 +26,9 @@ public class GarbageCollection {
         Employee employee1 = new Employee("Yasin");
         Employee employee2 = new Employee("Feruza");
 
-        employee1 = employee2; //old employee1 object will be eligible for garbage collection
+        //employee1 = employee2; //old employee1 object will be eligible for garbage collection
+        System.out.println(employee1);
+        System.out.println(employee2);
 
         System.out.println("------------------------------------------");
 
