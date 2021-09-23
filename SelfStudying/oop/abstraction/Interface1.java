@@ -7,16 +7,16 @@ interface Interface1 {
     //abstract void method4();
 
 
-    public static void staticMethod(){ //static method we can have in interface but its AM is public as default.
+   static void staticMethod(){ //static method we can have in interface but its AM is public as default.
 
         //body of static method
 
     }
 
 
-    static String nameOfSchool = "Cybertek";
+    String nameOfSchool = "Cybertek";
 
-    String nameOfEmployee = "Sabir"; // as default nameOfEmployee has "public" acc.modifier
+    String nameOfEmployee = "Sabir"; // as default nameOfEmployee has "public" acc.modifier and static and final as default
 
 
 
