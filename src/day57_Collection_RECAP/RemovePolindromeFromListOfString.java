@@ -37,3 +37,14 @@ public class RemovePolindromeFromListOfString {
 1. write a program that can remove the palindrome string from a list of String
             DO NOT use Lambda expressions
  */
+
+/*
+
+Topics for next week:
+	Map
+	Enum, generics
+
+
+Functional interface & lambda
+Stream (intermidiate operators )
+ */
