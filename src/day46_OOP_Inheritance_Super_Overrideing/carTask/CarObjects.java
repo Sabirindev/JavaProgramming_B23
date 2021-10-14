@@ -8,6 +8,7 @@ public class CarObjects {
         Car car= new Car("toyota","bbb",2000,5000,"black",15);
 
         car.drive();
+        System.out.println(car);
 
 
 
@@ -15,6 +16,7 @@ public class CarObjects {
         System.out.println("************ Toyota **************");
         Toyota toyota = new Toyota("Camry",2012,15000,"Red",165000);
         toyota.start();
+        System.out.println(toyota);
 
 
 //        System.out.println("\n************ Tesla **************");

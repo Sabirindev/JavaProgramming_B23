@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class Person {
+
     //private INSTANCE variables
     private String name;
     private char gender;

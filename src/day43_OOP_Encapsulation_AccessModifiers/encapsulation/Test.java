@@ -19,7 +19,7 @@ public class Test {
         System.out.println(obj.getPassword());
 
         obj.setUserName("Sabir");
-        obj.setPassword("asdfghj");
+        obj.setPassword("asdfghj55");
 
         System.out.println(obj.getUserName());
         System.out.println(obj.getPassword());
